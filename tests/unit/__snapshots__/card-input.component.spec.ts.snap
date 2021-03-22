@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Input Component renders correctly 1`] = `
+<div class="card-input__box"><label for="card-input-1">CARD 11</label> <input id="card-input-1" type="text" maxlength="3">
+  <!---->
+</div>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create deck page renders correctly 1`] = `
+<div id="new-deck__page">
+  <form id="deck-of-cards__form">
+    <div id="form__inputs">
+      <cardinput-stub id="0"></cardinput-stub>
+      <cardinput-stub id="1"></cardinput-stub>
+      <cardinput-stub id="2"></cardinput-stub>
+      <cardinput-stub id="3"></cardinput-stub>
+      <cardinput-stub id="4"></cardinput-stub>
+      <cardinput-stub id="5"></cardinput-stub>
+      <cardinput-stub id="6"></cardinput-stub>
+      <cardinput-stub id="7"></cardinput-stub>
+      <cardinput-stub id="8"></cardinput-stub>
+      <cardinput-stub id="9"></cardinput-stub>
+    </div>
+    <div id="rotation__card">
+      <cardinput-stub id="rotation" value="" hidelabel="true" nomargin="true"></cardinput-stub>
+    </div>
+    <div id="form__button"><button>Submit</button></div>
+  </form>
+</div>
+`;
