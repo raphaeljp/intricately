@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
+import NewDeck from '@/views/deck/create-deck.page.vue';
 import Home from '@/views/home.page.vue';
 
 Vue.use(VueRouter);
@@ -14,7 +15,7 @@ const routes: Array<RouteConfig> = [
       {
         path: 'new',
         name: 'NewDeck',
-        component: () => import('../views/deck/create-deck.page.vue'),
+        component: NewDeck,
         meta: { name: 'CARDS' },
       },
       {
