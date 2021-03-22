@@ -9,7 +9,8 @@ This is a test project for the Senior Frontend Developer role from Intricately.
 - [Installing](#installing)
 - [Testing](#testing)
 - [How to play](#how-to-play)
-- [Built With](#built-with)
+- [Things I would do](#improvements)
+- [Built with](#built-with)
 - [Authors](#authors)
 
 ### About the App
@@ -75,6 +76,15 @@ After including the cards, click on the "submit" button and wait.
 The App will redirect you to the playbook screen, where you'll have your "hand"
 ranked from the strongest to the weakest card, a field informing your strongest
 card, and a list of possible "full houses" (if any).
+
+### Improvements
+Things I'd do if this was a production app or if a had more time:
+
+:ballot_box_with_check: Include more unit tests
+:ballot_box_with_check: Include e2e tests
+:ballot_box_with_check: Improve project responsiveness
+:ballot_box_with_check: Improve transitions
+:ballot_box_with_check: Add custom loaders for the cards on the second page
 
 ## Built With
 
