@@ -1,13 +1,17 @@
 <template>
   <div id="page">
+    <Header />
     <router-view class="router__page" />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
+import Header from '@/components/header.component.vue';
 
-@Component({})
+@Component({
+  components: { Header },
+})
 export default class Home extends Vue {}
 </script>
 
